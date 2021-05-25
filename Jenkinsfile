@@ -18,7 +18,7 @@ pipeline {
     }
                  stage('Prod') {
                      steps {
-                                sh 'echo "<h1>This is your newly created webserver using jenkins</h1>" > /var/www/html/index.html'
+                                sh 'echo "<h1>This is your newly created webserver using jenkins pipeline and git</h1>" > /var/www/html/index.html'
                               }
                  
               }
